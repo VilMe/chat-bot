@@ -15,4 +15,9 @@ def chat_bot(knowledge: dict):
     best_match: str | None = get_best_match(user_input, knowledge)
 
 
-    if answer := knowledge.get(best_match)
+    if answer := knowledge.get(best_match):
+        print(f'Bot: {answer}')
+    else: 
+        print('Bot: I do not understand...')
+    
+    
