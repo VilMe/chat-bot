@@ -11,3 +11,8 @@ def get_best_match(user_question: str, questions: dict) -> str | None:
     
 
 def chat_bot(knowledge: dict):
+    user_input: str = input('You: ')
+    best_match: str | None = get_best_match(user_input, knowledge)
+
+
+    if answer := knowledge.get(best_match)
