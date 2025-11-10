@@ -20,4 +20,9 @@ def chat_bot(knowledge: dict):
     else: 
         print('Bot: I do not understand...')
     
-    
+
+    if __name__ == '__main__':
+        brain: dict = {'hello': 'Hey there!',
+                       'how are you': 'I am good, thanks',
+                       'what time is it': 'Don\'t knnow, don\'t care...',
+                       'bye': 'See you!'}
