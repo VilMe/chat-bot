@@ -11,14 +11,15 @@ def get_best_match(user_question: str, questions: dict) -> str | None:
     
 
 def chat_bot(knowledge: dict):
-    user_input: str = input('You: ')
-    best_match: str | None = get_best_match(user_input, knowledge)
+    while True: 
+        user_input: str = input('You: ')
+        best_match: str | None = get_best_match(user_input, knowledge)
 
-    print('in chat bot' * 3)
-    if answer := knowledge.get(best_match):
-        print(f'Bot: {answer}')
-    else: 
-        print('Bot: I do not understand...')
+        print('in chat bot' * 3)
+        if answer := knowledge.get(best_match):
+            print(f'Bot: {answer}')
+        else: 
+            print('Bot: I do not understand...')
     
 
 if __name__ == '__main__':
