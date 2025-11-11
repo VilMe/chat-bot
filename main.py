@@ -23,6 +23,6 @@ if __name__ == '__main__':
 
     brain: dict = {'hello': 'Hey there!',
                     'how are you': 'I am good, thanks',
-                    'what time is it': 'Don\'t knnow, don\'t care...',
+                    'what time is it': 'Don\'t know, don\'t care...',
                     'bye': 'See you!'}
     chat_bot(brain)
