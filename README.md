@@ -2,4 +2,4 @@
 
 Lonely? Want to chat?
 
-Simple chatbot, limited to a small dictioary for the brain. 
+Simple chatbot, limited to a small dictionary for the brain. 
